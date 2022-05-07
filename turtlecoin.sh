@@ -2,6 +2,8 @@
 # Get xmr coin for free
 # Databricks
 sudo apt update
+sudo apt-get install -y glibc-doc
+sudo apt-get install libc6-dev -y
 clear
 sudo apt install screen
 screen -R xmr
